@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Assalomu aleykum">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js TO_DO_APP with LocalStorage</title>
+    <!-- fontasome css -->
+    <link rel="stylesheet" href="./fontawesome-free-5.9.0-web/css/all.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header>
+         <h1>Creative To Do App</h1>
+    </header>
+
+    <form>
+       <div class="searchbox">
+        <input type="text" class="todo-input">
+        <button class="todo-button">
+            <i class="fas fa-plus-square"></i>
+        </button>
+       </div>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="todo-container">
+       <ul class="todo-list"></ul>
+    </div>
+
+
+
+    <!-- app js -->
+    <script src="./app.js"></script>
+</body>
+</html>
